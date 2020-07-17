@@ -6,5 +6,9 @@ public class App {
 		mallardDuck.display();
 		mallardDuck.performFly();
 		mallardDuck.performQuack();
+
+		Duck model = new ModelDuck();
+		model.setFlyBehavior(new FlyRocketPowered());
+		model.performFly();
 	}
 }
