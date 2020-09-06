@@ -1,4 +1,7 @@
-package com.clemhlrdt.strategy;
+package com.clemhlrdt.behavioral.strategy;
+
+import com.clemhlrdt.behavioral.strategy.behaviors.FlyNoWay;
+import com.clemhlrdt.behavioral.strategy.behaviors.Quack;
 
 public class ModelDuck extends Duck {
 

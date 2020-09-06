@@ -1,4 +1,4 @@
-package com.clemhlrdt.strategy;
+package com.clemhlrdt.behavioral.strategy.behaviors;
 
 public class FlyWithWings implements FlyBehavior {
 	@Override

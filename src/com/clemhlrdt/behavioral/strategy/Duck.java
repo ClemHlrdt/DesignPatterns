@@ -1,9 +1,11 @@
-package com.clemhlrdt.strategy;
+package com.clemhlrdt.behavioral.strategy;
 
-import java.util.ArrayList;
-import java.util.List;
+import com.clemhlrdt.behavioral.strategy.behaviors.FlyBehavior;
+import com.clemhlrdt.behavioral.strategy.behaviors.Quack;
+import com.clemhlrdt.behavioral.strategy.behaviors.QuackBehavior;
 
 public abstract class Duck {
+
 	FlyBehavior flyBehavior;
 	QuackBehavior quackBehavior;
 
